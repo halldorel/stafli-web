@@ -1,0 +1,51 @@
+* {
+  font-family: "Josefin Slab", serif; }
+
+body {
+  background: #e6e6e6; }
+
+.logo-wrap {
+  text-align: center; }
+  .logo-wrap .logo {
+    width: 5em; }
+
+.projects .project {
+  margin: 20px 0px; }
+  .projects .project .inner-wrap {
+    cursor: pointer;
+    overflow: hidden;
+    background: #fff; }
+    .projects .project .inner-wrap img {
+      padding: 20px;
+      width: 100%; }
+    .projects .project .inner-wrap .about {
+      display: none;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translateY(-50%) translateX(-50%);
+      -ms-transform: translateY(-50%) translateX(-50%);
+      transform: translateY(-50%) translateX(-50%);
+      position: absolute; }
+      .projects .project .inner-wrap .about h2 {
+        font-weight: 600; }
+  .projects .project .inner-wrap:hover img {
+    -khtml-opacity: 0.1;
+    -moz-opacity: 0.1;
+    -ms-filter: "alpha(opacity=10)";
+    filter: alpha(opacity=10);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.10);
+    opacity: 0.1; }
+  .projects .project .inner-wrap:hover .about {
+    display: block; }
+
+.close {
+  color: #fff;
+  font-size: 65px;
+  opacity: 1;
+  position: absolute;
+  right: 10;
+  top: 0;
+  line-height: 0.5; }
+
+/*# sourceMappingURL=style.css.map */
