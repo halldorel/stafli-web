@@ -5,12 +5,13 @@ body {
   background: #e6e6e6; }
 
 .logo-wrap {
-  text-align: center; }
+  text-align: center;
+  padding: 40px 0px; }
   .logo-wrap .logo {
-    width: 5em; }
+    width: 30em; }
 
 .projects .project {
-  margin: 20px 0px; }
+  margin-top: 20px; }
   .projects .project .inner-wrap {
     cursor: pointer;
     overflow: hidden;
@@ -30,12 +31,12 @@ body {
       .projects .project .inner-wrap .about h2 {
         font-weight: 600; }
   .projects .project .inner-wrap:hover img {
-    -khtml-opacity: 0.1;
-    -moz-opacity: 0.1;
-    -ms-filter: "alpha(opacity=10)";
-    filter: alpha(opacity=10);
-    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.10);
-    opacity: 0.1; }
+    -khtml-opacity: 0;
+    -moz-opacity: 0;
+    -ms-filter: "alpha(opacity=0)";
+    filter: alpha(opacity=0);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.0);
+    opacity: 0; }
   .projects .project .inner-wrap:hover .about {
     display: block; }
 

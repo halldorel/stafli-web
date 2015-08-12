@@ -10,23 +10,24 @@
   transform: translateY(-50%) translateX(-50%)
 
 @mixin background-img-alpha
-  -khtml-opacity: .10
-  -moz-opacity: .10
-  -ms-filter: "alpha(opacity=10)"
-  filter: alpha(opacity=10)
-  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.10)
-  opacity: .10
+  -khtml-opacity: .0
+  -moz-opacity: .0
+  -ms-filter: "alpha(opacity=0)"
+  filter: alpha(opacity=0)
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.0)
+  opacity: .0
 
 body
   background: rgb(230,230,230)
 .logo-wrap
   text-align: center
+  padding: 40px 0px
   .logo
-    width: 5em
+    width: 30em
 
 .projects
   .project
-    margin: 20px 0px
+    margin-top: 20px
     .inner-wrap
       cursor: pointer
       overflow: hidden
