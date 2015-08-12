@@ -41,6 +41,12 @@ body {
       position: absolute; }
       .projects .project .inner-wrap .about h2 {
         font-weight: 600; }
+      .projects .project .inner-wrap .about a {
+        border-bottom: 1px solid;
+        color: black;
+        text-decoration: none !important; }
+      .projects .project .inner-wrap .about a:hover {
+        opacity: 0.6; }
   .projects .project .inner-wrap:hover img {
     -khtml-opacity: 0;
     -moz-opacity: 0;
