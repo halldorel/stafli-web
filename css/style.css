@@ -2,7 +2,7 @@
   font-family: "Josefin Slab", serif; }
 
 body {
-  background: #e6e6e6; }
+  background: #d0d0d0; }
 
 .logo-wrap {
   text-align: center;
@@ -24,7 +24,6 @@ body {
 .projects .project {
   margin-top: 20px; }
   .projects .project .inner-wrap {
-    cursor: pointer;
     overflow: hidden;
     background: #fff; }
     .projects .project .inner-wrap img {
