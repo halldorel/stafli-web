@@ -1,5 +1,8 @@
 * {
   font-family: "Josefin Slab", serif; }
+  *::selection {
+    background: black;
+    color: #fff; }
 
 body {
   background: #d0d0d0; }
