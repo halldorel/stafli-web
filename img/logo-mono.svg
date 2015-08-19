@@ -5,15 +5,17 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Group" sketch:type="MSLayerGroup" transform="translate(1.000000, 1.000000)">
-            <path d="M0,140 L149,40 L299,140 L149,240 L0,140 Z" id="Path-5" stroke="#000000" stroke-linecap="square" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
-            <path d="M0,120 L0,130 L149,230 L299,130 L299,120 L149,220 L0,120 Z" id="Path-3" stroke="#000000" stroke-linecap="square" stroke-linejoin="round" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
-            <path d="M0,120 L149,20 L299,120 L149,220 L0,120 Z" id="Path-6" stroke="#000000" stroke-linecap="square" stroke-linejoin="round" fill="#F2F2F2" sketch:type="MSShapeGroup"></path>
-            <path d="M0,140 L0,150 L149,250 L299,150 L299,140 L149,240 L0,140 Z M0,100 L0,110 L149,210 L299,110 L299,100 L149,200 L0,100 Z" id="Path-4" stroke="#000000" stroke-linecap="square" stroke-linejoin="round" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
-            <path d="M0,100 L149,0 L299,100 L149,200 L0,100 Z" id="Path-1" stroke="#000000" stroke-linecap="square" stroke-linejoin="round" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
-            <text id="STAFLI" sketch:type="MSTextLayer" font-family="Avenir Next" font-size="54" font-weight="260" sketch:alignment="middle" letter-spacing="4.12444448" fill="#000000">
-                <tspan x="56.3426665" y="120.236145">STAFLI</tspan>
-            </text>
+        <g id="Artboard-6" sketch:type="MSArtboardGroup" transform="translate(-244.000000, -193.000000)">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(245.000000, 194.000000)">
+                <path d="M0,140 L149,40 L299,140 L149,240 L0,140 Z" id="Path-5" stroke="#000000" stroke-linecap="square" stroke-linejoin="round" fill="#F2F2F2" sketch:type="MSShapeGroup"></path>
+                <path d="M0,120 L0,130 L149,230 L299,130 L299,120 L149,220 L0,120 Z" id="Path-3" stroke="#000000" stroke-linecap="square" stroke-linejoin="round" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <path d="M0,120 L149,20 L299,120 L149,220 L0,120 Z" id="Path-6" stroke="#000000" stroke-linecap="square" stroke-linejoin="round" fill="#F2F2F2" sketch:type="MSShapeGroup"></path>
+                <path d="M0,140 L0,150 L149,250 L299,150 L299,140 L149,240 L0,140 Z M0,100 L0,110 L149,210 L299,110 L299,100 L149,200 L0,100 Z" id="Path-4" stroke="#000000" stroke-linecap="square" stroke-linejoin="round" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <path d="M0,100 L149,0 L299,100 L149,200 L0,100 Z" id="Path-1" stroke="#000000" stroke-linecap="square" stroke-linejoin="round" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <text id="STAFLI" sketch:type="MSTextLayer" font-family="Avenir Next" font-size="54" font-weight="260" sketch:alignment="middle" letter-spacing="4.12444448" fill="#000000">
+                    <tspan x="56.3426665" y="120.236145">STAFLI</tspan>
+                </text>
+            </g>
         </g>
     </g>
 </svg>
