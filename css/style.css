@@ -45,12 +45,10 @@ body {
         font-weight: 600; }
         @media (min-width: 0px) and (max-width: 768px) {
           .projects .project .inner-wrap .about h2 {
-            font-size: 2em;
-            color: yellow; } }
+            font-size: 1.3em; } }
         @media (min-width: 768px) and (max-width: 1023px) {
           .projects .project .inner-wrap .about h2 {
-            color: red;
-            font-size: 2.5em; } }
+            font-size: 2em; } }
       .projects .project .inner-wrap .about a {
         border-bottom: 1px solid;
         color: black;
@@ -59,16 +57,13 @@ body {
         opacity: 0.6; }
       @media (min-width: 0px) and (max-width: 768px) {
         .projects .project .inner-wrap .about p, .projects .project .inner-wrap .about a {
-          font-size: 2em;
-          color: yellow; } }
+          font-size: 1em; } }
       @media (min-width: 768px) and (max-width: 1023px) {
         .projects .project .inner-wrap .about p, .projects .project .inner-wrap .about a {
-          color: red;
-          font-size: 1.5em; } }
+          font-size: 1.8em; } }
       @media (min-width: 1024px) {
         .projects .project .inner-wrap .about p, .projects .project .inner-wrap .about a {
-          font-size: 1em;
-          color: green; } }
+          font-size: 1em; } }
   .projects .project .inner-wrap:hover img {
     -khtml-opacity: 0;
     -moz-opacity: 0;
