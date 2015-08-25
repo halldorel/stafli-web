@@ -20,6 +20,21 @@
   filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.0)
   opacity: .0
 
+// @mixin retina
+//   @media
+//     only screen and (-webkit-min-device-pixel-ratio: 2),
+//     only screen and (min--moz-device-pixel-ratio: 2),
+//     only screen and (-o-min-device-pixel-ratio: 2/1),
+//     only screen and (min-device-pixel-ratio: 2),
+//     only screen and (min-resolution: 192dpi),
+//     only screen and (min-resolution: 2dppx) {
+//     @content
+
+$mobile: "(min-width: 0px) and (max-width: 768px)"
+$tablet: "(min-width: 768px) and (max-width: 1023px)"
+$desktop: "(min-width: 1024px)"
+
+
 body
   background: rgb(208,208,208)
 .logo-wrap
@@ -54,12 +69,29 @@ body
         position: absolute
         h2
           font-weight: 600
+          @media #{$mobile}
+            font-size: 2em
+            color: yellow
+          @media #{$tablet}
+            color: red
+            font-size: 2.5em
         a
           border-bottom: 1px solid
           color: rgb(0,0,0)
           text-decoration: none !important
         a:hover
           opacity: .6
+
+        p,a
+          @media #{$mobile}
+            font-size: 2em
+            color: yellow
+          @media #{$tablet}
+            color: red
+            font-size: 1.5em
+          @media #{$desktop}
+            font-size: 1em
+            color: green
 
     .inner-wrap:hover
       img

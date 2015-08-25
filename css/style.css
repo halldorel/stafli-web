@@ -43,12 +43,32 @@ body {
       position: absolute; }
       .projects .project .inner-wrap .about h2 {
         font-weight: 600; }
+        @media (min-width: 0px) and (max-width: 768px) {
+          .projects .project .inner-wrap .about h2 {
+            font-size: 2em;
+            color: yellow; } }
+        @media (min-width: 768px) and (max-width: 1023px) {
+          .projects .project .inner-wrap .about h2 {
+            color: red;
+            font-size: 2.5em; } }
       .projects .project .inner-wrap .about a {
         border-bottom: 1px solid;
         color: black;
         text-decoration: none !important; }
       .projects .project .inner-wrap .about a:hover {
         opacity: 0.6; }
+      @media (min-width: 0px) and (max-width: 768px) {
+        .projects .project .inner-wrap .about p, .projects .project .inner-wrap .about a {
+          font-size: 2em;
+          color: yellow; } }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .projects .project .inner-wrap .about p, .projects .project .inner-wrap .about a {
+          color: red;
+          font-size: 1.5em; } }
+      @media (min-width: 1024px) {
+        .projects .project .inner-wrap .about p, .projects .project .inner-wrap .about a {
+          font-size: 1em;
+          color: green; } }
   .projects .project .inner-wrap:hover img {
     -khtml-opacity: 0;
     -moz-opacity: 0;
